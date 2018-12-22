@@ -1,0 +1,14 @@
+{
+  "name": "nerds",
+  "version": "0.0.1",
+  "description": "HTMLAcademy Nerds project test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikail Halikov",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
