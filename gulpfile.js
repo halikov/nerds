@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const csso = require('gulp-csso');
 
 function styles() {
     return gulp.app('./css/**/*.css')
