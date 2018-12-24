@@ -238,6 +238,11 @@ input[type="radio"].visually-hidden {
     display: block;
 }
 
+.slider-controls input:focus + .slider-dot {
+    outline: thin dotted #eeeeee; 
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
 .promo-item {
     position: absolute;
     top: 0;
@@ -312,6 +317,11 @@ input[type="radio"].visually-hidden {
 .promo-item-content a:hover,
 .promo-item-content a:focus {
     background-color: #e74246;
+}
+
+.promo-item-content a:focus {
+    outline: thin dotted #eeeeee; 
+    outline: 5px auto -webkit-focus-ring-color;
 }
 
 .promo-item-content a:active {
@@ -404,6 +414,11 @@ input[type="radio"].visually-hidden {
     background-color: #e74246;
 }
 
+.websites a:focus {
+    outline: thin dotted #eeeeee;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
 .websites a:active {
     background-color: #d7373b;
 }
@@ -417,6 +432,11 @@ input[type="radio"].visually-hidden {
     background-color: #00bc6c;
 }
 
+.apps a:focus {
+    outline: thin dotted #eeeeee;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
 .apps a:active {
     color: rgba(0, 1, 1, 0.1);
     background-color: #00aa62;
@@ -424,6 +444,20 @@ input[type="radio"].visually-hidden {
 
 .presentations a {
     background-color: #efc84a;
+}
+
+.presentations a:hover {
+    background-color: #eab534;
+}
+
+.presentations a:focus {
+    background-color: #eab534;
+    outline: thin dotted #eeeeee;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.presentations a:active{
+    background-color: #e5a722;
 }
 
 .about-us {
